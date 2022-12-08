@@ -3,45 +3,40 @@
 FUNCTION:
 _________
 
-Define a function called merge(first, second). This function accepts two sorted lists called
-first and second and returns a new sorted list that contains the elements from first and second.
+Define a function called zen. This function does not accept any parameters and does not return
+anything.
+
+The zen function must open and make a copy of the file called zen.txt, which is included in the exam
+package. The copy must be named zen_copy.txt. Your copy must contain the following two changes:
+
+A) The 19 aphorisms (sayings) which end with a period must be sorted alphabetically in the
+zen_copy.txt file
+B) The 19 aphorisms must also be numbered like this (note the period and space after the
+numbers):
+
+1. Although never is often better than *right* now.
+2. Although practicality beats purity.
+3. Although that way may not be obvious at first unless you're Dutch.
+
+...and so on...
+
+Note that for full marks your code must follow best practices, i.e., minimize the amount of code
+in a try-block.
 
 ASSUMPTIONS (PRECONDITIONS):
 ____________
 
-The lists passed as parameters, first and second, may not be modified, not even temporarily.
-
-The lists passed as parameters must be pre-sorted.
-
-The lists will always be homogenous and the same types, so they are sortable and can be merged.
-
-The lists can be strings or some other sortable like numbers.
-
-Sample usage example 1:
-
-some_list = [1, 5, 9]
-some_other_list = [-10, 44, 100]
-sorted_merge = merge(some_list, some_other_list)
-print(sorted_merge)
-[-10, 1, 5, 9, 44, 100]
-
-Sample usage example 2:
-
-some_list = ["apple", "orange", "tamarind"]
-some_other_list = ["applesauce", "bread", "watermelon"]
-sorted_merge = merge(some_list, some_other_list)
-print(sorted_merge)
-["apple", "applesauce", "bread", "orange", "tamarind", "watermelon"]
+There is a plaintext file called zen.txt in the same folder as easy.py.
 
 DOCSTRING:
 __________
 
-Yes. Docstrings are needed.
+No. Docstrings are not needed.
 
 DOCTESTS:
 _________
 
-Yes. Three doctests are needed.
+No. No doctests are needed.
 
 UNIT TESTS:
 ___________
@@ -51,6 +46,6 @@ No. No unit tests are needed.
 MAIN FUNCTION AND IF-STATEMENT BELOW IT
 _______________________________________
 
-Yes. The main function should invoke your function with one of your doctest examples.
+Yes. The main function should invoke your function, so I can execute your code and examine zen_copy.txt
 
 """

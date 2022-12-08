@@ -7,7 +7,7 @@ Define a function called denomination_registrar.
 
 This function accepts a non-empty sorted tuple of ints and floats called denominations.
 
-This function uses this sorted tuple when it customized and returns a function called change_maker.
+This function uses this sorted tuple when it customizes and returns an inner function called change_maker.
 
 The change_maker function is used to make change rounded to the closest 20th of a unit. It does this
 using the algorithm you implemented for money_changer in A2. Yes, you may use code you wrote for A2 here.
