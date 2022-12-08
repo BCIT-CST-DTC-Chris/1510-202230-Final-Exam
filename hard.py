@@ -18,7 +18,7 @@ canadian_denominations = (100, 50, 20, 10, 5, 2, 1, 0.25, 0.10, 0.05)
 canadian_change_maker = denomination_registrar(canadian_denominations)
 canadian_breakdown = canadian_change_maker(66.53)
 print(canadian_breakdown)
-[0, 1, 0, 1, 1, 0, 1, 2, 0, 1] is the expected output
+[0, 1, 0, 1, 1, 0, 1, 2, 0, 1] # expected output
 
 Sample usage example 2 to go in your main function:
 
@@ -26,7 +26,7 @@ euro_denominations = (500, 200, 100, 50, 20, 10, 5, 2, 1, .50, .20, .10, .05)
 euro_change_maker = denomination_registrar(euro_denominations)
 euro_breakdown = euro_change_maker(870.53)
 print(euro_breakdown)
-[1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1] is the expected output
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1] # expected output
 
 ASSUMPTIONS (PRECONDITIONS):
 ____________
