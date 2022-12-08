@@ -26,7 +26,7 @@ in a try-block.
 ASSUMPTIONS (PRECONDITIONS):
 ____________
 
-There is a plaintext file called zen.txt in the same folder as easy.py.
+There is a plaintext file called zen.txt in the same folder as fun.py.
 
 DOCSTRING:
 __________
